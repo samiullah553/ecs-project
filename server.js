@@ -7,11 +7,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/data', (req, res) => {
-  res.send('Data received!');
+  res.send('wow Data received!');
 });
 
 app.get('/health', (req, res) => {
-  res.send('Server is healthy!');
+  res.send('wow, Server is healthy!');
 });
 
 app.listen(port, () => {
